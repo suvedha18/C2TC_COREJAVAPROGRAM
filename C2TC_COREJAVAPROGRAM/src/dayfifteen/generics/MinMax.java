@@ -1,5 +1,8 @@
 package dayfifteen.generics;
 
-public class MinMax {
+public interface MinMax<T extends Comparable<T>> {
 
+	T min();
+
+	T max();
 }
