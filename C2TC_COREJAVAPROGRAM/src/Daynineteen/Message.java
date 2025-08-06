@@ -1,5 +1,7 @@
 package Daynineteen;
 
-public class Message {
 
-}
+@FunctionalInterface
+public interface Message{  
+    public void greet(String name);    
+ } 

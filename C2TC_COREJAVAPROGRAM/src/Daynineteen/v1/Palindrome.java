@@ -1,5 +1,6 @@
 package Daynineteen.v1;
 
-public class Palindrome {
 
+public interface Palindrome<T> {
+	boolean checkPalindrome(T data);
 }

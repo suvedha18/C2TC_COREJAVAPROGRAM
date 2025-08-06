@@ -1,5 +1,6 @@
 package Daynineteen;
 
-public class IsOdd {
+interface IsOdd {
+	public boolean checkOdd(int a);
 
 }
